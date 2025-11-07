@@ -150,7 +150,6 @@ Server akan berjalan di `http://localhost:3000`
 
 - **Node.js** - Runtime JavaScript
 - **Express.js** - Web framework untuk Node.js
-- **CommonJS** - Module system untuk import/export
 
 ---
 

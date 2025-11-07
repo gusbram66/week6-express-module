@@ -87,16 +87,8 @@ Server akan berjalan di `http://localhost:3000`
 
 **Response:**
 
-```
-Selamat Datang!
-NIM: F1D022052
-Nama: Ida Bagus Brahmanta Jayana
+<img width="1215" height="729" alt="image" src="https://github.com/user-attachments/assets/ab0c4131-ab64-45fb-a029-2f57276c268c" />
 
-Available routes:
-- /hitung - Hasil penjumlahan
-- /profile - Daftar profile
-- /profile/F1D022052 - Detail profile
-```
 
 ---
 
@@ -108,13 +100,8 @@ Available routes:
 
 **Response:**
 
-```json
-{
-  "message": "Hasil Penjumlahan",
-  "operasi": "15 + 25",
-  "hasil": 40
-}
-```
+<img width="1227" height="736" alt="image" src="https://github.com/user-attachments/assets/302288ab-2167-4075-bd16-db1f67f485bd" />
+
 
 **Penjelasan:** Route ini menggunakan fungsi `tambah()` dari modul `utils/math.js` untuk menjumlahkan dua angka (15 + 25) dan mengembalikan hasilnya dalam format JSON.
 
@@ -128,35 +115,8 @@ Available routes:
 
 **Response:**
 
-```json
-{
-  "success": true,
-  "message": "Daftar Profile Mahasiswa",
-  "data": [
-    {
-      "nim": "F1D022052",
-      "nama": "Ida Bagus Brahmanta Jayana",
-      "jurusan": "Informatika",
-      "angkatan": 2022,
-      "email": "brahmanta@example.com"
-    },
-    {
-      "nim": "F1D022001",
-      "nama": "John Doe",
-      "jurusan": "Informatika",
-      "angkatan": 2022,
-      "email": "john@example.com"
-    },
-    {
-      "nim": "F1D022002",
-      "nama": "Jane Smith",
-      "jurusan": "Sistem Informasi",
-      "angkatan": 2022,
-      "email": "jane@example.com"
-    }
-  ]
-}
-```
+<img width="1233" height="750" alt="image" src="https://github.com/user-attachments/assets/c9c1d37a-2f06-4511-96fd-6e1d472ca77d" />
+
 
 **Penjelasan:** Route ini mengembalikan array JSON yang berisi daftar profile mahasiswa dengan informasi lengkap seperti NIM, nama, jurusan, angkatan, dan email.
 
@@ -170,19 +130,8 @@ Available routes:
 
 **Response:**
 
-```json
-{
-  "success": true,
-  "message": "Detail Profile Mahasiswa",
-  "data": {
-    "nim": "F1D022052",
-    "nama": "Ida Bagus Brahmanta Jayana",
-    "jurusan": "Informatika",
-    "angkatan": 2022,
-    "email": "gusbram66@gmail.com"
-  }
-}
-```
+<img width="1229" height="747" alt="image" src="https://github.com/user-attachments/assets/dcd749ed-36dd-4701-a852-73b2402721a7" />
+
 
 **Penjelasan:** Route ini menggunakan parameter dinamis `:nim` untuk mencari dan menampilkan detail profile mahasiswa yang sesuai. Jika NIM tidak ditemukan, akan mengembalikan response 404 dengan pesan error.
 
